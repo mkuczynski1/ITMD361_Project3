@@ -1,0 +1,81 @@
+video {
+	height:640px;
+	width:360px;
+	border: 3px solid black;
+}
+body {
+  background-color: #F5F5DC;
+  color: #333333;
+}
+p {
+  font-family: "Georgia", serif;
+}
+.nav{
+    border:1px solid #000000;
+    border-width:1px 0;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: #FFF8DC;
+    position: sticky;
+    top: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+#content{
+	padding-left: 1%;
+}
+#content p{
+	font-family: "Times New Roman", serif;
+}
+#hobbies-content{
+	padding-left: 1%;
+}
+#pets-content{
+	padding-left: 1%;
+}
+#contact-info{
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+}
+#content h3{
+	text-decoration: underline;
+}
+#resume-experience strong{
+	font-style: italic;
+}
+
+#hobbies-content h2{
+	color: #474747;
+	text-decoration: underline;
+}
+#hobbies-content img {
+	border: 3px solid black;
+	height: 256px;
+	width: 256px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#hobbies-content div {
+	border: 1px solid black;
+	width: 50%;
+	margin: auto;
+	margin-top: 2%;
+	padding-bottom: 1%;
+}
+#pets-content img{
+	border: 3px solid black;
+	height: 384px;
+	width: 216px;
+}
+#pets-content h2{
+	color: blue;
+	text-decoration: underline;
+}
