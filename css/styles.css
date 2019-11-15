@@ -84,11 +84,14 @@ p {
 	width: 50%;
 	margin: auto;
 	border: 3px dashed black;
-}
+	}
 html,body{
 	height: 100%;
 }
 #mapsHeader{
 	text-align: center;
 	text-decoration: underline;
+	background-color: black;
+	text-decoration-color: white;
+	color: white;
 }
