@@ -99,18 +99,47 @@ html,body{
 @media screen and (min-width: 800px){
 	body{
 		background-color: #F5F5DC;
+	}
+	body p{
 		color: #333333;
 	}
 	.nav{
 		background-color: #FFF8DC;
 	}
+	.nav strong{
+		color: green;
+	}
+	h2{
+		color: white;
+	}
+	#hobbies-content img{
+		border: 3px solid black;
+	}
+	#hobbies-content h2{
+		color: #474747;
+		text-decoration: underline;
+	}
+
 }	
 @media screen and (max-width: 800px){
 	body{
 		background-color: #87CEFA;
-		color: #2F4F4F;
+		
+	}
+	body p{
+		color: white;
 	}
 	.nav{
 		background-color: #BDB76B;
+	}
+	.nav strong{
+		color: white;
+	}
+	#hobbies-content img{
+		border: 3px solid white;
+	}
+	#hobbies-content h2{
+		color: white;
+		text-decoration: none;
 	}
 }
