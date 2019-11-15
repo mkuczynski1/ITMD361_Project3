@@ -95,3 +95,22 @@ html,body{
 	text-decoration-color: white;
 	color: white;
 }
+
+@media screen and (min-width: 800px){
+	body{
+		background-color: #F5F5DC;
+		color: #333333;
+	}
+	.nav{
+		background-color: #FFF8DC;
+	}
+}	
+@media screen and (max-width: 800px){
+	body{
+		background-color: #87CEFA;
+		color: #2F4F4F;
+	}
+	.nav{
+		background-color: #BDB76B;
+	}
+}
