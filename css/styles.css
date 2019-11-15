@@ -79,3 +79,10 @@ p {
 	color: blue;
 	text-decoration: underline;
 }
+#map{
+	height: 50%;
+	width: 50%
+}
+html,body{
+	height: 100%;
+}
