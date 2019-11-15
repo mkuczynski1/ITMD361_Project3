@@ -81,7 +81,9 @@ p {
 }
 #map{
 	height: 50%;
-	width: 50%
+	width: 50%;
+	margin: auto;
+	border: 2px solid white;
 }
 html,body{
 	height: 100%;
