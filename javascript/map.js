@@ -87,4 +87,12 @@ function initMap() {
             }
           ]
         });
+        var marker = new google.maps.Marker({
+        	position: {lat: 41.834849, lng: -87.626984},map: map
+        });
+        var marker2 = new google.maps.Marker({
+        	position: {lat: 52.801499, lng: 18.406244},map: map
+        });
       }
+
+
