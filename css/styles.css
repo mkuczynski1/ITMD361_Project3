@@ -96,43 +96,12 @@ html,body{
 	color: white;
 }
 
-@media screen and (min-width: 800px){
-	body{
-		background-color: #F5F5DC;
-	}
-	body p{
-		color: #333333;
-	}
-	.nav{
-		background-color: #FFF8DC;
-	}
-	.nav strong{
-		color: green;
-	}
-	h2{
-		color: white;
-	}
-	#hobbies-content img{
-		border: 3px solid black;
-	}
-	#hobbies-content h2{
-		color: #474747;
-		text-decoration: underline;
-	}
-
-}	
-@media screen and (max-width: 800px){
+@media screen and (min-width: 1000px){
 	body{
 		background-color: #87CEFA;
 		
 	}
 	body p{
-		color: white;
-	}
-	.nav{
-		background-color: #BDB76B;
-	}
-	.nav strong{
 		color: white;
 	}
 	#hobbies-content img{
@@ -142,4 +111,34 @@ html,body{
 		color: white;
 		text-decoration: none;
 	}
+  #hobbies-content img{
+    width: 125px;
+    height:125px;
+  }
+}
+.slideshow{
+  max-width: 384px;
+  position: relative;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 165px;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
